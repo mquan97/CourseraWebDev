@@ -1,0 +1,71 @@
+body{
+  background-color: floralwhite;
+}
+/* Header */
+#header-nav {
+  background-color: #B46AF6;
+}
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Apple Chancery', cursive;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  font-family: 'Apple Chancery', cursive;
+  color: black;
+  text-align: center;
+}
+#nav-list li:nth-child(1)  {
+  background-color: #ffcc00;
+}
+#nav-list li:nth-child(2)  {
+  background-color: #993366;
+}
+#nav-list li:nth-child(3)  {
+  background-color: #0099ff;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+/*End of Header*/
+
+/*Main-Content*/
+#page-heading h1 {
+  font-family: 'Apple Chancery', cursive;
+  color: black;
+}
+
+#page-heading {
+  margin-bottom: 40px;
+}
+
+#menu section {
+  background-color: #B46AF6;
+  font-family: 'Apple Chancery', cursive;
+  color: black;
+  margin: 10px;
+  padding: 20px 0 20px 0;
+
+}
+
+#menu section span  {
+  font-size: 1.5em;
+}
